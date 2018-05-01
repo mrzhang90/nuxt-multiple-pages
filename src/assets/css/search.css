@@ -1,0 +1,62 @@
+/*i{font-family: "simsun";}*/
+.calendar-input-wrap span{visibility: hidden;}
+#position{float:left;overflow:hidden;}
+.search_head{height:33px;line-height:33px;background:#eaeff5;}
+.search_head .width_content{font-size: 0;}
+.search_head a{float: left;font-size: 14px;color: #000;}
+.search_head i{display: inline-block; width: 16px;font-size: 14px;text-align: center;}
+.search_content{padding-bottom:31px;}
+/*.select_sc{height:252px;}*/
+.select_sc li{padding: 5px 0;line-height: 28px; font-size: 14px; border-bottom: dashed #9f9f9f 1px;}
+.select_sc li .left{width:124px;line-height:38px;position:relative;color:#383838;text-align:center;}
+.select_sc li .left i{position:absolute;top:7px;right:0;right:-1px\9;width:8px;height:14px;border-radius:13px 0 0 13px;background:#fff;}
+#radius .left{overflow:hidden;}
+#radius .left i{right:-39px;top:7px;width:19px;border-width:14px;border-style:dotted;background:#21a8e2;}
+.select_sc li .right{width:1056px;
+    /*box-shadow: 0px 4px 29px -9px #221d1d;*/
+}
+.select_sc li .right a,.dataDiv{
+	position:relative;float:left;
+	display:inline-block;
+	line-height: 38px;padding:0 35px;
+	color:#8c8c8c;white-space:nowrap;
+}
+.dataDiv{
+	*line-height: 34px;
+}
+.dataDiv input{
+	*line-height: 34px;*height: 34px;
+	cursor:pointer;font-size:14px;
+}
+input.startTime:hover::-moz-placeholder{color:#21a8e2}
+input.startTime:hover::-ms-input-placeholder{color:#21a8e2}
+input.startTime:hover::-webkit-input-placeholder{color:#21a8e2}
+.select_sc li .right a:hover,input.startTime:hover{color:#33afe3;}
+/*.select_sc li .right i{position:absolute;top:50%;right:1px;margin-top:-9px;width:1px;height:18px;background:#929292;}*/
+.selected_sc{padding: 11px 0 12px 0; height: 23px; line-height: 23px; font-size: 0px; color: #000; border-bottom: solid 1px #8c8c8c;}
+.selected_sc span{float:left;display: inline-block; width: 124px;font-size: 14px; text-align: center; color: #383838;}
+.selected_sc span.right{float:right;width:auto;}
+.selected_sc label{font-size: 14px;}
+.selected_sc label.is_select{float:left;margin-left: 35px;}
+.selected_sc a{display:inline-block;margin-right: 20px; padding-right: 37px; padding-left: 8px; position: relative; border: dashed 1px #44b6e6; color: #44b6e6;}
+.selected_sc a i{position:absolute;right:4px;color:#555;font-size:14px;}
+.content_sc{padding-top:28px;}
+.content_sc li{height:258px;margin-bottom:15px;box-shadow: 0px 4px 29px -9px #221d1d;overflow:hidden;}
+.content_sc .left_sc{float:left;width:411px;height:258px;}
+.content_sc .left_sc img{width:100%;height:100%;}
+.content_sc .center_sc{float:left;padding:32px 63px 0px 49px;width:380px;font-family: "微软雅黑";}
+.content_sc .center_sc a{color:#29abe2;}
+.content_sc .center_sc h2{max-height:64px;height:32px;line-height:32px;font-size:24px;font-weight: bold;overflow: hidden;text-overflow: ellipsis; white-space: nowrap;}
+.content_sc .center_sc h2 a:hover{text-decoration:underline;}
+.content_sc .center_sc .tag{height: 36px; line-height: 36px;color: #29abe2; font-size: 14px;}
+.content_sc .center_sc .cont{line-height: 27px; height: 135px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 14px;}
+.content_sc .center_sc div i{padding:0 3px;}
+.content_sc .center_sc p{padding-top:15px;line-height:28px;font-size:14px;color:#555;}
+.content_sc .right_sc{float:left;padding-top:36px;width:209px;}
+.content_sc .right_sc span{display:block;line-height:56px;text-align:center;font-size:38px;color:#29abe2;border-bottom: solid 1px #88d2ed;}
+.content_sc .right_sc a{margin-top: 48px; display: block; height: 33px; line-height: 33px; text-align: center; font-size: 16px; border: solid 1px #29abe2; color: #29abe2; transition: 0.8s;}
+.content_sc .right_sc a:hover{border-color:#555;color:#555;}
+.content_sc .no_result{margin-top:15px;background:url("../img/no_result.jpg") center 0 no-repeat;text-align:center;}
+.content_sc .no_result span{display: block; padding-top: 200px; height: 16px; font-size: 16px;color: #383838;}
+.content_sc .no_result a{color: #383838;}
+.content_sc .no_result a:hover{color: #44b6e6;}

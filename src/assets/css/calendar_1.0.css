@@ -1,0 +1,21 @@
+#calendar{position:absolute;top:29px;left:8px;width:466px;color:#404040;font:12px/1.5 Arial;z-index:10000;}
+#calendar .container{padding:4px 29px 14px 29px;border:solid 2px #29abe2;background:#fff;letter-spacing: -0.31em;word-spacing: -0.43em;}
+#calendar .content-box{}
+#calendar .arrow span{position:absolute;cursor:pointer;text-indent:-99999px;top:50%;width:20px;height:38px;margin-top:-19px;
+    background:url("../img/T1upvrXbFdXXbRt4oj-57-106.png") 0 0 no-repeat}
+#calendar .arrow span.close{top:10px;right:10px;width:17px;height:17px;margin:0;background-position:-40px 0;}
+#calendar .arrow span.prev{left:10px;background-position:0 0;}
+#calendar .arrow span.prev-btn-disabled{left:10px;cursor:default;background-position:0 -38px;}
+#calendar .arrow .next{right:10px;background-position:-20px 0;}
+#calendar .inner{padding:0 10px;position:relative;float:left;width:182px;vertical-align:top;letter-spacing: normal;word-spacing: normal;}
+#calendar h4{margin:0;padding:0;font-size:12px;line-height:25px;text-align:center;border-bottom:solid 1px #e4e4e4;}
+#calendar table{border-spacing:0;border-collapse:collapse;}
+#calendar th{height:22px;font-weight:400;border-bottom:solid 1px #e4e4e4;}
+#calendar th.weekend{font-weight:700;}
+#calendar td{padding:0;width:25px;height:22px;font-weight:700;text-align:center;border:solid 1px #e5e5e5;}
+#calendar a{display:block;width:25px;height:22px;line-height:22px;color:#404040;text-decoration:none;background:#fff url("../img/T1MwfeXdFsXXcLztbA-149-292.png") -9999px -9999px no-repeat;}
+#calendar a:hover,#calendar td.selected-date a{color:#FFF;background-color:#5792DC;}
+#calendar td.disabled a{color:#DCDCDC!important;background-color:transparent!important;}
+#calendar td.disabled a:hover{color:#DCDCDC;cursor:default;}
+#calendar td .today{text-indent: -9999px;background-position: 0 -270px;}
+#calendar td .today:hover,#calendar td.selected-date .today{background-position:-31px -270px;cursor:pointer;}
